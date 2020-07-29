@@ -9,3 +9,8 @@
 
   <button>Add!</button>
 </form>
+
+<p>
+    Previous multiplication: 
+    <%= "#{cookies.fetch(:most_recent_first_number)} + #{cookies.fetch(:most_recent_second_number)} = #{cookies.fetch(:most_recent_multiplication)}" %>
+</p>

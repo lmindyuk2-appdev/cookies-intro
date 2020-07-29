@@ -9,3 +9,7 @@
 
   <button>Add!</button>
 </form>
+<p>
+    Previous division: 
+    <%= "#{cookies.fetch(:most_recent_first_number)} + #{cookies.fetch(:most_recent_second_number)} = #{cookies.fetch(:most_recent_division)}" %>
+</p>

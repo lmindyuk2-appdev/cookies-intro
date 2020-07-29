@@ -9,3 +9,8 @@
 
   <button>Subtract!</button>
 </form>
+
+<p>
+    Previous subtraction: 
+    <%= "#{cookies.fetch(:most_recent_first_number)} + #{cookies.fetch(:most_recent_second_number)} = #{cookies.fetch(:most_recent_subtraction)}" %>
+</p>
